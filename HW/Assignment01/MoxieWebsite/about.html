@@ -1,0 +1,161 @@
+<!-- 
+  Assignment 1 COMP 1850
+  Created by: Robert Desjardins
+  A website about my dog Moxie - About
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+    <style>
+      body {
+        background-color: #FFFFFF;
+        color: #373737;
+      }
+      #wrapper {
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        background-color: #f4f4f4;
+      }
+      h1 {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        text-align: center;
+      }
+      nav {
+        width: 20vw;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border: 1px solid #000000;
+      }
+      nav a {
+        padding: 1em;
+      }
+      table {
+        margin: auto;
+        border: 2px solid #000000;
+        width: 75vw;
+      }
+      caption {
+        font-weight: bold;
+        font-size: 1.5em;
+        padding-top: 1em;
+        padding-bottom: 0.2em;
+      }
+      td, th {
+        padding: 10px;
+      }
+      #table_image {
+        width: 400px;
+        height: 600px;
+      }
+      #sub_heading {
+        text-align: center;
+      }
+      .info_col1 {
+        width: 10%;
+      }
+      .table_row1 {
+        background-color: #C0B283;
+      }
+      .table_row2 {
+        background-color: #DCD0C0;
+      }
+      ul {
+        margin: 0px;
+      }
+      #table_header {
+        text-align: center;
+        font-size: 1.75em;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+        <header>
+            <h1>Moxie</h1>
+            <p id="sub_heading">The Best Puppy Ever</p>
+            <nav>
+              <!--
+                It really doesn't make sense in my opinion to open 
+                the link to the same page in a new tab. For example, 
+                If you're on the home page and you click home I made it
+                simply refresh the page instead of opening home in 
+                a new tab. 
+              -->
+              <a href="/home.html" target=”_blank”>Home</a>
+              <a href="/about.html">About</a>
+              <a href="/breed.html" target=”_blank”>Breed</a>
+            </nav>
+          </header>
+          <main>
+            <table>
+              <caption>
+                About
+              </caption>
+              <tr>
+                <td id="table_image" rowspan="8">IMAGE</td>
+                <td id="table_header" colspan="2">Moxie</td>
+              </tr>
+              <tr class="table_row1">
+                <td class="info_col1">Age:</td>
+                <td>11 Months</td>
+              </tr>
+              <tr class="table_row2">
+                <td class="info_col1">Gender:</td>
+                <td>Female</td>
+              </tr>
+              <tr class="table_row1">
+                <td class="info_col1">Weight:</td>
+                <td>6 Pounds</td>
+              </tr>
+              <tr class="table_row2">
+                <td class="info_col1">Likes:</td>
+                <td>
+                  <ul>
+                    <li>Walks</li>
+                    <li>People</li>
+                    <li>Pet stores</li>
+                    <li>Chew toys</li>
+                    <li>Sitting on laps</li>
+                    <li>Laying in the sun</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr class="table_row1">
+                <td class="info_col1">Dislikes:</td>
+                <td>
+                  <ul>
+                    <li>Haircuts</li>
+                    <li>Aggresive dogs</li>
+                    <li>The rain</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr class="table_row2">
+                <td class="info_col1">Tricks:</td>
+                <td>
+                  <ul>
+                    <li>Come</li>
+                    <li>Roll-over</li>
+                    <li>Shake a paw</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr class="table_row1">
+                <td class="info_col1">Cute:</td>
+                <td>Yes</td>
+              </tr>
+            </table>
+          </main>
+          <footer>
+            
+          </footer>
+        </body>
+    </div>
+</html>

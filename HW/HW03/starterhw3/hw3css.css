@@ -1,0 +1,105 @@
+/* CSS for homework 3 - COMP 1850
+   link this CSS file into each of the three hw3 files
+*/
+
+/***************************
+GIVEN CSS - NO NEED TO CHANGE (EXCEPT TO EXPERIMENT FOR FUN) 
+****************************/
+
+/* border-box makes box model easier to understand  */
+
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box; 
+}
+
+
+
+/* wrapper is common (but just a conventional) name for container used to center whole page 
+
+  This is an example of an ID selector */
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+    background-color: bisque;
+}
+
+/* a trick to make our icons align to left of text in boxes */
+img { float: left;}
+
+/* Basic flexbox CSS based on https://www.w3schools.com/css/css3_flexbox.asp 
+   Students do no need to change details here  
+
+   These are examples of class selectors */
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: lightgrey;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+    -webkit-justify-content: stretch;
+    justify-content: stretch;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    background-color: whitesmoke;
+    flex: 1;
+    margin: 10px;
+    height: 100%;
+}
+
+/*************************************************
+STUDENTS - EDIT CSS HERE 
+
+CSS for colors, nav and footer. Students should edit content here to match requirements.
+   
+**************************************************/ 
+
+/* Apply box model to nav, h1, h2 and footer. 
+   Also style for appearance using color and text properties.
+*/
+
+h1 {
+    background-color: rgb(250, 255, 255);
+    text-align: center;
+    border-bottom: 6px solid black;
+}
+
+h2{
+    background-color: rgb(250, 235, 215);
+    font-style: italic;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 15px;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Apply box model to a elemnts in nav create menu 
+   NOTE: This is an example of a descendant selector
+   which will avoid causing the a element in the footer
+   being impacted */
+
+nav a {
+    background-color: rgb(211, 211, 211);
+    padding: 10px;
+    border: 2px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+}
+
+

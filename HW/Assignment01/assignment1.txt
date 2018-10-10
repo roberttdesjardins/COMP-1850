@@ -1,0 +1,13 @@
+My homepage for assignment1 is:
+
+http://students.bcitwebdev.com/83jard/Assignments/Assignment1/assign1.html
+
+Three BLOCK tags which I used:
+<div>
+<nav>
+<li> (Used in about.html within a <ul> - which is also a block tag)
+
+Three INLINE tags used: 
+<b> (Used around the "Moxie" text in the first row in about.html. I think this is ok as per http://w3c.github.io/html-reference/b.html as I did not want to convey any extra importance on the word)
+<img>
+<a>

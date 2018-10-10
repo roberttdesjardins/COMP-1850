@@ -7,105 +7,139 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title></title>
+    <title>Moxie - Breed</title>
     <meta charset="utf-8">
     <style>
       body {
-        background-color: #FFFFFF;
-        color: #373737;
+      background-color: #FFFFFF;
+      color: #373737;
       }
       #wrapper {
-        width: 80vw;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 10px;
-        padding-bottom: 20px;
-        background-color: #f4f4f4;
+      width: 80vw;
+      min-height: calc(100vh - 72px);
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 10px;
+      padding-bottom: 21px;
+      background-color: #f4f4f4;
       }
       h1 {
-        font-family: Georgia, "Times New Roman", Times, serif;
-        text-align: center;
+      font-family: Georgia, "Times New Roman", serif;
+      text-align: center;
       }
       nav {
-        width: 20vw;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        border: 1px solid #000000;
+      width: 20vw;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      border: 1px solid #000000;
       }
       nav a {
-        padding: 1em;
+      padding: 1em;
       }
       table {
-        margin: auto;
-        border: 2px solid #000000;
-        width: 75vw;
+      margin: auto;
+      border: 2px solid #000000;
+      width: 75vw;
       }
       caption {
-        font-weight: bold;
-        font-size: 1.5em;
-        padding-top: 1em;
-        padding-bottom: 0.2em;
+      font-weight: bold;
+      font-size: 2em;
+      padding-top: 1em;
+      padding-bottom: 0.2em;
       }
       td, th {
-        padding: 10px;
+      padding: 10px;
       }
       #table_image {
-        width: 400px;
-        height: 600px;
+      width: 400px;
+      height: 600px;
       }
       #sub_heading {
-        text-align: center;
-      }
-      ul {
-        margin: 0px;
+      text-align: center;
       }
       #breed_type {
-        height: 50px;
-        font-size: 1.75em;
+      height: 50px;
+      font-size: 1.75em;
       }
-      #toy_poodle_info {
-        
+      .toy_poodle_info {
+      font-size: 1.3em;
+      }
+      footer {
+      background-color: #6e6e6e;
+      height: 30px;
+      margin-top: -10px;
+      }
+      footer p {
+      color: #DCD0C0;
+      position: relative;
+      bottom: -5px;
+      text-align: center;
       }
     </style>
   </head>
   <body>
     <div id="wrapper">
-        <header>
-            <h1>Moxie</h1>
-            <p id="sub_heading">The Best Puppy Ever</p>
-            <nav>
-              <!--
-                It really doesn't make sense in my opinion to open 
-                the link to the same page in a new tab. For example, 
-                If you're on the home page and you click home I made it
-                simply refresh the page instead of opening home in 
-                a new tab. 
-              -->
-              <a href="/home.html" target=”_blank”>Home</a>
-              <a href="/about.html" target=”_blank”>About</a>
-              <a href="/breed.html">Breed</a>
-            </nav>
-          </header>
-          <main>
-            <table>
-              <caption>
-                Breed
-              </caption>
-              <tr>
-                <td id="table_image" rowspan="7">IMAGE</td>
-                <th id="breed_type" colspan="2">Toy Poodle</th>
-              </tr>
-              <tr>
-                <td headers="breed_type" id="toy_poodle_info">
-                  Toy poodles are a  
-                </td>
-              </tr>
-            </table>
-          </main>
-          <footer>
-            
-          </footer>
-        </body>
+      <header>
+        <h1>Moxie</h1>
+        <p id="sub_heading">The Best Puppy Ever</p>
+        <nav>
+          <a href="assign1.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="breed.html">Breed</a>
+        </nav>
+      </header>
+      <main>
+        <!--
+          Reference: https://www.dogbreedinfo.com/toypoodle.htm for much of the information about toy poodles
+          Other information was from personal experience. 
+        -->
+        <table>
+          <caption>
+            Breed
+          </caption>
+          <tr>
+            <td id="table_image" rowspan="7">
+              <img src="images/breed_image.png" height="600" width="400" alt="Moxie lying on a couch">
+            </td>
+            <th id="breed_type">Toy Poodle</th>
+          </tr>
+          <tr>
+            <td headers="breed_type" class="toy_poodle_info">
+              Toy poodles are a purposely breed small variant of the standard poodle and thus share many characteristics with the standard poodle. These include an extremely high intelligence, desire to please, and gentle nature. In addition they share a need for exercise and socialization similar to their larger brethren. 
+            </td>
+          </tr>
+          <tr>
+            <td headers="breed_type" class="toy_poodle_info">
+              Toy poodles, however, differ slightly in their personalities and temperaments. Toy poodles have a particularly strong affinity for people and love meeting new people, yet still are loyal to their owners and can act as watch dogs, if only in warning barks and not physical presence. 
+            </td>
+          </tr>
+          <tr>
+            <td headers="breed_type" class="toy_poodle_info">
+              Toy poodles require daily walks, but otherwise are very calm and will lay next to you or on your lap all evening, which is ideal for apartment living as they do not need much space indoors to run around. 
+            </td>
+          </tr>
+          <tr>
+            <td headers="breed_type" class="toy_poodle_info">
+              As with most smaller breeds, toy poodles have a very long life span of around 15 years. They weigh around 6-9 pounds. Also, toy poodles are considered "Hypo-allergenic" as they shed far less than most other dog breeds. 
+            </td>
+          </tr>
+          <tr>
+            <td headers="breed_type" class="toy_poodle_info">
+              All in all, toy poodles make great companions for those in smaller living quarters, people with allergies, people who don't want to constantly clean up hair, or just for people who love a loyal and intelligent dog with a great personality. 
+            </td>
+          </tr>
+          <tr>
+            <td headers="breed_type" class="toy_poodle_info">
+              For more information on toy poodles, I recommend visiting <a href="https://www.dogbreedinfo.com/toypoodle.htm" target="_blank">Dog Breed Info</a>. 
+            </td>
+          </tr>
+        </table>
+      </main>
     </div>
+    <footer>
+        <p>COMP 1850 Robert Desjardins. Email me at <a href="mailto:roberttdesjardins@gmail.com">roberttdesjardins@gmail.com</a></p>
+      </footer>
+  </body>
 </html>
+

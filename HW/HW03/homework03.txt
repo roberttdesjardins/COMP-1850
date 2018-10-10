@@ -1,0 +1,13 @@
+The URL for HW03 is:
+
+http://students.bcitwebdev.com/83jard/Homework/hw03/hw3home.html
+
+Write-up:
+Element: An example of an element selector would be for h2. The CSS code in h2 affects all h2 tags where the css file is linked. 
+
+Class or ID: An example of an ID selector is the #wrapper selector in the css file. It affects only the tag with the id set to wrapper
+
+descendant: An example of a descendant element would be "nav a" in the the css file. This only affects <a> tags within a <nav> tag. 
+
+
+Using an html validator service, it gives errors for not including an alt attribute for the images used, but I'm assuming that isn't an issue. 

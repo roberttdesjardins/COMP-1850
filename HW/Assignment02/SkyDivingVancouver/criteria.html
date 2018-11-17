@@ -1,0 +1,127 @@
+<!-- 
+  Assignment 2 COMP 1850
+  Created by: Robert Desjardins
+  Criteria META page
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Criteria</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      main {
+      padding: 5px 20px 5px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>SkyDivingVancouver.ca</h1>
+      <nav class="topnav">
+        <ul>
+          <li><a href="assign2.html">Introduction</a></li>
+          <li><a href="catalog.html">Packages</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="audience.html">Audience</a></li>
+          <li><a href="criteria.html">Criteria</a></li>
+          <li><a href="project.html">Project</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <table width="100%" border="1" style="height: 324px;">
+        <tbody>
+          <tr style="height: 18px;">
+            <th style="height: 18px;">Criteria</th>
+            <th style="height: 18px;">My Choice</th>
+            <th style="height: 18px;">Where Found</th>
+          </tr>
+          <tr style="height: 54px;">
+            <td style="height: 54px;">Catalog navigation</td>
+            <td style="height: 54px;">
+              <p>
+                The secondaru menu for the page is in the left column of the two column design. It follows the same design theme as the primary navigation, and I think is clear enough that it doesn't require a heading. It also inludes the "Back to Top" link in the bottom right. 
+              </p>
+              <p>
+                I set the position of the side navigation menu to be fixed so that even if the user scrolls down the page it will still be visible. And the "Back to Top" link can be clicked from anywhere on the page. 
+              </p>
+              <p>
+                The order of the side nav menu follows the order on the page, which is the beginner package first, and then the other packages in order of increasing cost. 
+              </p>
+            </td>
+            <td style="height: 54px;">
+              <p><a href="catalog.html" target="_blank">Skydiving Package Catalog</a></p>
+            </td>
+          </tr>
+          <tr style="height: 36px;">
+            <td style="height: 36px;">DIV tag (With id attribute)</td>
+            <td style="height: 36px;">
+              <p>&lt;div id="content"&gt; ...&nbsp; &lt;/div&gt;&nbsp;</p>
+              <p>This div tag contains the content of the introduction page, and was used to hold the text left to the image. Both the div with id="content" and the image are children of the main tag, which has overflow="auto" and allows for the formatting to work correctly</p>
+            </td>
+            <td style="height: 36px;">
+              <p>Find this div on the <a href="assign2.html" target="_blank">Introduction Page</a>.</p>
+            </td>
+          </tr>
+          <tr style="height: 36px; vertical-align: top;">
+            <td style="height: 36px;">DIV tag (With class attribute)</td>
+            <td style="height: 36px;">
+              <p>&lt;div class="employee-div"&gt; ...&nbsp; &lt;/div&gt;&nbsp;</p>
+              <p>&lt;div class="employee-contact"&gt; ...&nbsp; &lt;/div&gt;&nbsp;</p>
+              <p>Both of these examples are used to format each employee. Divs with class="employee-div" hold all the information and picture of that employee, while the 
+                employee-contact class was needed to provide different formatting and hold all the contact information for each employee
+              </p>
+            </td>
+            <td style="height: 36px;">
+              <p>Find this div on the <a href="contact.html" target="_blank">Contact Page</a>.</p>
+            </td>
+          </tr>
+          <tr style="height: 54px;">
+            <td style="height: 54px;">Semantic element + CSS example</td>
+            <td style="height: 54px;">
+              <p>I used the main tag as the container for all of the non-header site content- ie. all of the non-repeating site content.</p>
+              <p>I formatted the main tag with a max-width, overflow, set the margins, and gave a default background colour.</p>
+            </td>
+            <td style="height: 54px;">
+              <p>This tag was used on all of the pages, including this one. And the CSS for the main tag is in the style.css file</p>
+            </td>
+          </tr>
+          <tr style="height: 36px;">
+            <td style="height: 36px;">box model</td>
+            <td style="height: 36px;">
+              <p>
+                The entire website uses the box-model. An example would be <span>&lt;div id="content"&gt; ...&nbsp; &lt;/div&gt;&nbsp;</span> 
+                in the catalog page. The embedded CSS for content includes setting the margins and the padding so that it formats correctly with the side-nav and the top-nav.
+              </p>
+            </td>
+            <td style="height: 36px;">
+              <p>Find this example of the box-model on the <a href="catalog.html" target="_blank">Catalog Page</a>.</p>
+            </td>
+          </tr>
+          <tr style="height: 36px;">
+            <td style="height: 36px;">Two new HTML5 tags</td>
+            <td style="height: 36px;">
+              <p>Two HTML5 tags I used are the section tag and the header tag.</p>
+              <p>The section tag I used in the catalog page in-order to semantically seperate each of the packages and I used the header tag on every page for the company name and the main navigation</p>
+            </td>
+            <td style="height: 36px;">
+              <p>The section tag can be found on the <a href="catalog.html" target="_blank">Catalog Page</a>. The header tag is on every page, including this one.</p>
+            </td>
+          </tr>
+          <tr style="height: 54px;">
+            <td style="height: 54px;">Cascade CSS</td>
+            <td style="height: 54px;">
+              <p>I overrode the external CSS for the main tag in the catalog page using embedded CSS because the changes were specific to that page. I set the max-width to be 100% instead of the external CSS which was 95%. I thought the style of the catalog page looked a lot better when it stretched across the entire browser.</p>
+              <p>I also used inline CSS to override the embedded CSS and external CSS for the h2 tag in the contact page. There was no reason to do this besides fullfilling the assignment requirements as I couldn't find a situtation during the assignment that warrented inline CSS.</p>
+            </td>
+            <td style="height: 54px;">
+              <p>Find this example of overriding the external CSS using embedded CSS on the <a href="catalog.html" target="_blank">Catalog Page</a>.</p>
+              <p>Find this example of overriding both the external CSS and embedded CSS using inline CSS on the <a href="contact.html" target="_blank">Contact Page</a>.</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,148 @@
+<!-- 
+  Assignment 2 COMP 1850
+  Created by: Robert Desjardins
+  A website about a fictional Skydiving company - Catalog
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Packages</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      /* 
+      alt-package, content, content-info, and package-img are all specific to this page. 
+      Main overrides the external css for this page.
+      h4 and topnav formatting is specific to this page. 
+       */
+      main {
+      max-width: 100%;
+      }
+      h4 {
+      margin-bottom:0;
+      }
+      .topnav ul {
+      margin-bottom: 0;
+      }
+      .alt-package {
+      background-color: var(--color-secondary-1-0);
+      }
+      #content {
+      background-color: var(--color-secondary-2-2);
+      margin-left: 180px;
+      margin-top: -20px;
+      padding-top: 20px;
+      }
+      .content-info {
+      text-align: center;
+      }
+      .package-img {
+      float:right;
+      max-width: 50%;
+      height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <a id="top"></a>
+    <header>
+      <h1>SkyDivingVancouver.ca</h1>
+      <nav class="topnav">
+        <ul>
+          <li><a href="assign2.html">Introduction</a></li>
+          <li><a href="catalog.html">Packages</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="audience.html">Audience</a></li>
+          <li><a href="criteria.html">Criteria</a></li>
+          <li><a href="project.html">Project</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <nav class="sidenav">
+        <ul>
+          <li><a href="#package1">Beginner</a></li>
+          <li><a href="#package2">Bronze</a></li>
+          <li><a href="#package3">Silver</a></li>
+          <li><a href="#package4">Gold</a></li>
+          <li><a href="#package5">Platinum</a></li>
+        </ul>
+        <a id="back-to-top" href="#top">Back to Top</a>
+      </nav>
+      <div id="content">
+        <h2>Choose from one of our packages bellow.</h2>
+        <p class="content-info">
+          All packages include basic training and transportation to and from the flight location. 18+. Some restrictions apply.
+        </p>
+        <p class="content-info">
+          <a href="contact.html">Contact us</a> today for more information and bookings!
+        </p>
+        <section id="package1" class="alt-package">
+          <img class="package-img" src="images/package1.jpeg" alt="a woman sky diving">
+          <h3>Beginner Package</h3>
+          <p>The perfect package for a first timer!</p>
+          <h4>Includes:</h4>
+          <ul>
+            <li>Training and beginner friendly information session</li>
+            <li>Equipment</li>
+            <li>One jump with an instructor</li>
+          </ul>
+          <p>Price: $320</p>
+        </section>
+        <section id="package2">
+          <img class="package-img" src="images/package2.jpeg" alt="Tandem skydiving">
+          <h3>Bronze Package</h3>
+          <p>The lowest price!</p>
+          <p>For those who already know what to expect</p>
+          <h4>Includes:</h4>
+          <ul>
+            <li>Equipment</li>
+            <li>One jump with an instructor</li>
+          </ul>
+          <p>Price: $250</p>
+        </section>
+        <section id="package3" class="alt-package">
+          <img class="package-img" src="images/package3.jpeg" alt="Two men jumping out of a plane together">
+          <h3>Silver Package</h3>
+          <p>Our most popular package!</p>
+          <p>Relive the experience with first-person video of your jumps!</p>
+          <h4>Includes:</h4>
+          <ul>
+            <li>Equipment</li>
+            <li>Two jumps with an instructor</li>
+            <li>GoPro footage of each jump</li>
+          </ul>
+          <p>Price: $450</p>
+        </section>
+        <section id="package4">
+          <img class="package-img" src="images/package4.jpeg" alt="Selfie of a man and a woman skydiving">
+          <h3>Gold Package</h3>
+          <p>The best value!</p>
+          <p>Relive the experience with first-person video of your jumps!</p>
+          <h4>Includes:</h4>
+          <ul>
+            <li>Equipment</li>
+            <li>Three jumps with an instructor</li>
+            <li>HD GoPro footage of each jump</li>
+          </ul>
+          <p>Price: $675</p>
+        </section>
+        <section id="package5" class="alt-package">
+          <img class="package-img" src="images/package5.jpeg" alt="Selfie of a man and a woman skydiving">
+          <h3>Platinum Package</h3>
+          <p>The ultimate experience!</p>
+          <p>Simply unforgettable</p>
+          <h4>Includes:</h4>
+          <ul>
+            <li>Equipment</li>
+            <li>As many jumps as you can fit throughout the day</li>
+            <li>HD GoPro footage of each jump</li>
+            <li>Fotage of your jumps taken by an instructor jumping alongside you</li>
+            <li>Professional editing of fotage along with raw fotage</li>
+          </ul>
+          <p>Price: $1225</p>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

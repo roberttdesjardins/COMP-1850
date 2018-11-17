@@ -1,0 +1,42 @@
+h1{
+  text-align: center;
+}
+form { 
+  background-color:#eaeaea;
+  font-family: Arial, sans-serif;
+  padding: 15px;
+  min-width: 400px;	
+  max-width: 600px;
+  margin: auto;
+}
+label { 
+  margin-top: 10px; 
+}
+input, textarea, select { 
+  margin-bottom: 10px;
+  display: block;
+} 
+select {
+  min-width: 200px;
+}
+fieldset {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+fieldset label {
+  margin-top: 0;
+  margin-bottom: 10px;
+  display: block;
+}
+fieldset input {
+  margin-bottom: 10px;
+  float: left;
+  display: block;
+  min-width: 20px;
+}
+#submit {
+  display: inline;
+}
+#reset {
+  display: inline;
+}

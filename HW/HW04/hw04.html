@@ -1,0 +1,56 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <title>Music Survey</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Music Survey</h1>
+    <form method="post" action="http://webdevbasics.net/scripts/demo.php">
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" placeholder="Full name">
+      <label for="email">E-mail:</label>
+      <input type="email" name="email" id="email" placeholder="Enter Email">
+      <fieldset> 
+        <legend>Select Your Favourite Types of Music:</legend>
+        <input type="checkbox" name="musicGenre" id="popCheck" value="yes">
+        <label for="popCheck">Pop</label>
+        <input type="checkbox" name="musicGenre" id="classicalCheck" value="yes">
+        <label for="classicalCheck">Classical</label>
+        <input type="checkbox" name="musicGenre" id="rockCheck" value="yes">
+        <label for="rockCheck">Rock</label>
+        <input type="checkbox" name="musicGenre" id="folkCheck" value="yes">
+        <label for="folkCheck">Folk</label>
+        <input type="checkbox" name="musicGenre" id="rapCheck" value="yes">
+        <label for="rapCheck">Rap</label>
+        <input type="checkbox" name="musicGenre" id="otherCheck" value="yes">
+        <label for="otherCheck">Other</label>
+      </fieldset>
+      <fieldset>
+        <legend>Select how often you purchase Music:</legend>
+        <input type="radio" name="purchaseFrequency" id="weekly" value="Weekly">
+        <label for="weekly">Weekly</label>
+        <input type="radio" name="purchaseFrequency" id="fewAYear" value="FewAYear">
+        <label for="fewAYear">A few CDs each year</label>
+        <input type="radio" name="purchaseFrequency" id="monthly" value="Monthly">
+        <label for="monthly">Monthly</label>
+        <input type="radio" name="purchaseFrequency" id="never" value="Never">
+        <label for="never">Never</label>
+      </fieldset>
+      <label>Select the locations you listen to Music:</label>
+      <select size="3" name="locations" id="locations">
+        <option value="Home">At Home</option>
+        <option value="Car">In the car</option>
+        <option value="PublicTransit">On public transit</option>
+        <option value="Walking">While walking</option>
+        <option value="Everywhere">Everywhere</option>
+      </select>
+      <label for="roleComment">What role does music play in your life?</label>
+      <textarea name="roleComment" id="roleComment" rows="3" cols="60"></textarea>
+      <input id="submit" type="submit" value="Submit">
+      <input id="reset" type="reset">
+    </form>
+  </body>
+</html>
+

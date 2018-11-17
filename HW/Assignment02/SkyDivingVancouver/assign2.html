@@ -1,0 +1,61 @@
+<!-- 
+  Assignment 2 COMP 1850
+  Created by: Robert Desjardins
+  A website about a fictional Skydiving company - Introduction
+  ALL IMAGES ARE STOCK IMAGES FROM https://www.pexels.com/ FREE FOR PERSONAL AND COMMERCIAL USE - NO ATTRIBUTION REQUIRED
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Introduction</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      /* introimg and content are both specific to this page, and main is overwritten for this page */
+      #introimg {
+      max-width: 400px;
+      float: right;
+      margin-left: 20px;
+      }
+      #content {
+      padding: 20px;
+      font-size: 1.5em;
+      }
+      main {
+      background-color: var(--color-secondary-2-1);
+      background-image: url(images/clouds.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>SkyDivingVancouver.ca</h1>
+      <nav class="topnav">
+        <ul>
+          <li><a href="assign2.html">Introduction</a></li>
+          <li><a href="catalog.html">Packages</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="audience.html">Audience</a></li>
+          <li><a href="criteria.html">Criteria</a></li>
+          <li><a href="project.html">Project</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <img id="introimg" src="images/intro.jpg" alt="a sky diver">
+      <div id="content">
+        <h2>
+          Welcome to Sky Diving Vancouver!
+        </h2>
+        <p>
+          We are the longest running skydiving company in British Columbia. Your safety is our number one priority, which is why we are the most trusted name in SkyDiving.
+        </p>
+        <p>
+          Choose Sky Diving Vancouver today!
+        </p>
+      </div>
+    </main>
+  </body>
+</html>

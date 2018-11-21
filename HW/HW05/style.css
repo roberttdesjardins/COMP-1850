@@ -1,0 +1,14 @@
+header {
+  text-align: center;
+}
+main {
+  max-width: 50%;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(182, 182, 182);
+  padding: 10px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+}

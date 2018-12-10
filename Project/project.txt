@@ -1,0 +1,8 @@
+The URL for my Project folder is:
+http://students.bcitwebdev.com/83jard/Project/
+
+The home page is about.html
+http://students.bcitwebdev.com/83jard/Project/about.html
+
+
+Using a CSS validator such as https://jigsaw.w3.org/css-validator/ gives Parse errors due to the use of variables for the colours. I used variables so that it would be easier to change the colour palette of the entire site if I wanted to. 

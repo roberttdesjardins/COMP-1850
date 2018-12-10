@@ -1,0 +1,369 @@
+:root {
+  --color-primary-0: #BE5B70; /* Main Primary color */
+  --color-primary-1: #F2BEC9;
+  --color-primary-2: #E391A3;
+  --color-primary-3: #983047;
+  --color-primary-4: #6E0F24;
+
+  --color-secondary-1-0: #CD8862;	/* Main Secondary color (1) */
+  --color-secondary-1-1: #FFDBC8;
+  --color-secondary-1-2: #F6BC9D;
+  --color-secondary-1-3: #A45B34;
+  --color-secondary-1-4: #773411;
+
+  --color-secondary-2-0: #934785;	/* Main Secondary color (2) */
+  --color-secondary-2-1: #CFA3C7;
+  --color-secondary-2-2: #B070A4;
+  --color-secondary-2-3: #762567;
+  --color-secondary-2-4: #550C47;
+
+  /* Used palettron.com for colours with some modifications for variables */
+}
+
+* {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--color-secondary-1-1);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--color-primary-0);
+}
+
+main {
+  overflow: auto;
+  display: block;
+  min-height: calc(100vh - 154px);
+} 
+
+.column1 ul {
+  text-align: center;
+}
+.column1 li {
+  font-size: 2em;
+  padding: 60px 0 40px 0;
+  list-style-type: none;
+}
+
+footer {
+  padding-bottom: 3px;
+  background: var(--color-primary-0);
+  color: white;
+  text-align: center;
+  clear: both;
+  height: 30px;
+}
+
+footer p {
+  padding: 10px 0 0 0;
+  margin: 0;
+}
+
+#site-map {
+  padding: 10px 10px 0 0;
+  margin: 0;
+  float: right;
+  overflow: auto;
+}
+
+#site-map a {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #2e2728;
+}
+
+h1 a:visited  {
+  color: #2e2728;
+}
+
+h1 a:hover  {
+  color: var(--color-primary-4);
+}
+
+.price {
+  font-size: 1.2em;
+  padding: 0 20px 10px 40px;
+}
+
+
+/*----- Nav Outline -----*/
+
+.nav {
+	width: 100%;
+  text-align: center;
+}
+
+.nav > ul {
+  padding: 0;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+.nav li {
+  list-style-type: none;
+}
+
+.nav > ul > li {
+  background-color: var(--color-primary-0);
+}
+
+.nav a {
+  font-size: 1.2em;
+  color: white;
+  text-decoration: none;
+}
+
+.nav li:hover > a {
+	color: var(--color-primary-2);
+}
+
+/* Nav */
+.nav > ul > li {
+	float:left;
+  position:relative;
+}
+
+.nav > ul > li > a {
+  min-height: 25px;
+  padding: 15px 20px 10px 20px;
+	display: inline-block;
+}
+
+.nav > ul > li:hover > a {
+	background:#2e2728;
+}
+
+.nav > ul > .current-page > a {
+  font-weight: bold;
+}
+
+.fa { 
+  padding: 0 0 0 5px;
+  float: right;
+}
+
+/* Sub Nav */
+.sub-nav {
+	width: 100%;
+	padding: 0;
+	position:absolute;
+  background:#2e2728;
+  display: none;
+  z-index: 2;
+}
+
+.nav li:hover .sub-nav {
+	display: block;
+}
+
+.sub-nav li {
+  text-align: left;
+  padding: 10px;
+}
+
+.sub-nav li a {
+	padding:10px;
+}
+
+
+/*  FORMAT FOR SIDE NAV AND CONTENT 2 COLUMN */
+/* Side Nav */
+.side-nav {
+  position: fixed;
+  float: left;
+  width: 200px;
+}
+
+.side-nav ul {
+  padding: 50px 0 0 0;
+}
+
+.side-nav li {
+  list-style-type: none;
+}
+
+.side-nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-size: 1.3em;
+  padding: 10px 15px 10px 25px;
+}
+
+.side-nav a:link {
+  color: white;
+}
+
+.side-nav a:visited {
+  color: white;
+}
+
+.side-nav a:hover {
+  background-color: #2e2728;
+  color: var(--color-primary-2);
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: 0;
+  padding: 10px 20px 10px 20px;
+  width: 160px;
+}
+
+#back-to-top:hover {
+  background-color: #2e2728;
+}
+
+.sitemap {
+  padding: 20px 20px 0 20px;
+  position: fixed;
+  float: left;
+  width: 200px;
+}
+
+.sitemap h2 {
+  padding-left: 30px;
+  padding-top: 40px;
+}
+
+.sitemap > ul {
+  font-size: 1.3em;
+}
+
+.sitemap li {
+  list-style-type: none;
+  padding: 5px 0 0 0;
+}
+
+.sitemap > ul > li > ul {
+  padding: 0 0 0 20px;
+}
+
+/* Content */
+#content {
+  margin-left: 200px;
+  padding-top: 20px;
+}
+#content h2 {
+  text-align: center;
+}
+
+.content-info {
+  text-align: center;
+}
+
+section {
+  margin: 0;
+  overflow: auto;
+}
+
+section h3, p {
+  margin: 20px;
+  padding: 10px 10px 10px 25px;
+}
+
+.section1 {
+  background-color: var(--color-secondary-1-1);
+}
+
+.section2 {
+  background-color: var(--color-secondary-1-2);
+}
+
+.section-img {
+  float:left;
+  max-width: 50%;
+  min-width: 200px;
+  height: auto;
+  padding-right: 10px;
+}
+
+/*  FORMAT FOR COLUMN1 AND COLUMN2  */
+.column1 {
+  float: left;
+  width: 50%;
+}
+
+.column2 {
+  overflow: auto;
+  display: block;
+}
+
+.column2-img {
+  padding: 40px;
+  max-width: calc(100% - 80px);
+  display: block;
+  margin: auto;
+}
+
+.column-heading {
+  text-align: center;
+}
+
+
+/* FEEDBACK FORM */
+form { 
+  background-color: var(--color-secondary-1-2);
+  padding: 20px;
+  min-width: 400px;	
+  max-width: 800px;
+  margin: auto;
+}
+
+label { 
+  margin-top: 10px; 
+}
+
+input, textarea { 
+  margin-bottom: 10px;
+  display: block;
+} 
+
+fieldset {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+fieldset label {
+  margin-top: 0;
+  margin-bottom: 10px;
+  display: block;
+}
+fieldset input {
+  margin-bottom: 10px;
+  float: left;
+  display: block;
+  min-width: 20px;
+}
+#submit {
+  display: inline;
+}
+#reset {
+  display: inline;
+}
+
+/* CREDITS: 
+Followed this guide for help with dropdown navigation: https://inspirationalpixels.com/creating-a-dropdown-menu-with-html-css/ 
+Richmond night market photo: https://www.flickr.com/photos/gotovan/
+PNE photo: https://www.flickr.com/photos/gotovan/
+UBC Museum of Anthropology: https://commons.wikimedia.org/wiki/File:UBC_MOA_with_reflecting_pool_01.JPG
+Gastown: https://www.flickr.com/photos/iqremix/
+Britannia Mine: https://commons.wikimedia.org/wiki/File:Britannia_Mines_Concentrator_as_seen_from_Howe_Sound.jpg
+*/
